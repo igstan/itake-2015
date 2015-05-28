@@ -38,6 +38,6 @@ object Signature {
       }
     }
 
-    recur(counter, "")
+    "'" + recur(counter, "")
   }
 }
