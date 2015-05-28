@@ -1,5 +1,8 @@
 package itake
 
+/**
+ * Represents the untyped AST, produced by the parser phase.
+ */
 sealed trait Term
 
 object Term {

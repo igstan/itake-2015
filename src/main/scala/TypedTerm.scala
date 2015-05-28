@@ -1,5 +1,9 @@
 package itake
 
+/**
+ * Represents the *typed* AST, produced by the type annotation phase from
+ * an untyped AST.
+ */
 sealed trait TypedTerm {
   def ty: Type
 }
