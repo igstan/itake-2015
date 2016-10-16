@@ -16,4 +16,8 @@ object Type {
     counter += 1
     VAR(counter)
   }
+
+  def resetFreshness(): Unit = {
+    counter = 0
+  }
 }
